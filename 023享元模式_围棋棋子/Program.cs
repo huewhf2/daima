@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +10,7 @@ namespace _023享元模式_围棋棋子
     {
         static void Main(string[] args)
         {
-            ChessPiece black1 = ChessPieceFactory.GetChessPiece("黑色");
+            ChessPiece black1 = ChessPieceFactory.GetChessPiece("hong色");
             black1.Place(1, 1);
             ChessPiece black2 = ChessPieceFactory.GetChessPiece("黑色");
             black2.Place(2, 2);
